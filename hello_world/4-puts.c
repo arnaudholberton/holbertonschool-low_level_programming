@@ -1,2 +1,2 @@
-
-int puts(test), return 0;
+#include <stdio.h>
+int puts(test);
