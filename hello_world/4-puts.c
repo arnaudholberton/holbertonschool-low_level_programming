@@ -1,12 +1,9 @@
 #include <stdio.h>
 /**
 *main - fonction
-*
 *Affiche un message
-*
-*return fonction
-*
-*return: retourne  si code valide
+*Main return - fonction
+*Return: retourne 0 si code valide
 */
 int main(void)
 {
