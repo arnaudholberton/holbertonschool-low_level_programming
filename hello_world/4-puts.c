@@ -1,2 +1,2 @@
 #include <stdio.h>
-int puts(test);
+int main () { puts("test");}
