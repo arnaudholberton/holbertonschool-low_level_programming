@@ -13,7 +13,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("if the number is greater than %d", n);
+printf("%d if the number is greater than ", n);
 }
 else if (n == 0)
 {
