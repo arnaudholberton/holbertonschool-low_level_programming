@@ -13,15 +13,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("%d is positive \n", n);
+printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
-printf("if the number is %d", n);
+printf("%dis zero\n", n);
 }
 else
 {
-printf("if the number is less than  %+d ", n);
+printf("%+d is negative\n", n);
 }
 return (0);
 }
