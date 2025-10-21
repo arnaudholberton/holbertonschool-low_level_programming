@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*Fonction main donne un nombre aléatoire
-*Dit ci les nombres sont positif ou négatif
-*Return renvoi 0
+*main - Function
+*Affiche les different type de fichier
+*Return: 0 ci code valide
 */
 int main(void)
 {
