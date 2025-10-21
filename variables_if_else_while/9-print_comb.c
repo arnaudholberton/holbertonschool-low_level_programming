@@ -14,8 +14,8 @@ while (a < 10)
 	if (a != 10)
 	{
 		putchar(',');
+		putchar(' ');
 }
-putchar(' ');
 	}
 putchar('\n');
 return (0);
