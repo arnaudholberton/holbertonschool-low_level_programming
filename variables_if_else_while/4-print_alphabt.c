@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-char a= 'a';
+char a = 'a';
 for (a = 'a'; a <= 'z'; a++)
 {
 if (a != 'q' && a != 'e')
