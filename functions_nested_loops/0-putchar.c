@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include"main.h"
 /**
  * main - afficher un message
  * Return: renvoi 0
@@ -10,9 +10,9 @@ int main(void)
 	int i = 0;
 while (i < 8)
 {
-	putchar(a[i]);
+	_putchar(a[i]);
 	i++;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
