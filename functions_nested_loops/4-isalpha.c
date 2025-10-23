@@ -6,7 +6,7 @@
 *Return: sinon 0
 *
 */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 if (c >= 'a' && c <= 'Z')
 return (1);
