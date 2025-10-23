@@ -21,7 +21,7 @@ _putchar(c);
 _putchar(d);
 if (d == 9)
 c++;
-if (c == 5)
+if (c == 5 && b <=)
 b++;
 if (b == 9)
 a++;
