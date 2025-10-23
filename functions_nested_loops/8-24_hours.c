@@ -7,8 +7,11 @@
 
 void jack_bauer(void)
 {
-	int a, b, c, d;
-
+int a, b, c, d;
+a = 0;
+b = 0;
+c = 0;
+d = 0;
 while (a == 2 && b == 3 && c == 5 && d == 9)
 {
 _putchar(a);
