@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_sign - function compare miniscule
+*print_sign - affiche
 *@n : lettre a comparer
 *
 *Return: sinon 0
