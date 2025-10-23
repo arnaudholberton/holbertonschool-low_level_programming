@@ -11,7 +11,7 @@ int colone;
 int nbr;
 for (ligne = 0; ligne <= 9; ligne++)
 {
-putchar('0');
+_putchar('0');
 for (colone = 1; colone == 9; colone++)
 {
 nbr = colone * ligne;
