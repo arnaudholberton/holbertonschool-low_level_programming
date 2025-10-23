@@ -12,7 +12,7 @@ int nbr;
 for (ligne = 0; ligne <= 9; ligne++)
 {
 _putchar('0');
-for (colone = 1; colone == 9; colone++)
+for (colone = 1; colone <= 9; colone++)
 {
 nbr = colone * ligne;
 _putchar(',');
