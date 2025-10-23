@@ -7,31 +7,31 @@
 void print_to_98(int a)
 {
 if (a <= 98)
-	{
-		for (; a <= 98 ; a++)
-			{
-			printf("%d", a);
+{
+for (; a <= 98 ; a++)
+{
+printf("%d", a);
 if (a != 98)
 {
-					printf(", ");
+printf(", ");
 }
-			}
-			printf("\n");
-	}
-	else if (a > 98)
-	{
-		for (; a >= 98; a--)
-		{
-		printf("%d", a);
-				if (a != 98)
+}
+printf("\n");
+}
+else if (a > 98)
 {
-					printf(", ");
+for (; a >= 98; a--)
+{
+printf("%d", a);
+if (a != 98)
+{
+printf(", ");
 }
-		}
-		printf("\n");
-	}
+}
+printf("\n");
+}
 else
-	{
-		printf("98");
-	}
+{
+printf("98");
+}
 }
