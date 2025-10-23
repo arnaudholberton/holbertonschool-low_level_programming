@@ -6,8 +6,8 @@
 *Return: dernier chiffre
 *
 */
-int print_last_digit(int a, b)
+int print_last_digit(int a)
 {
-b = a % 10;
+int b = a % 10;
 return (b);
 }
