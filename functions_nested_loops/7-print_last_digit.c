@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-*_abs - entier a comaré
+*print_last_digit - entier a comaré
 *@a : chiffre
-*Return: valeur +
+*@b : dernier chiffre
+*Return: dernier chiffre
 *
 */
-int print_last_digit(int)
+int print_last_digit(int a, b)
 {
-int a;
-int b = a % 10;
+b = a % 10;
 return (b);
 }
