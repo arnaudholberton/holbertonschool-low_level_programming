@@ -1,8 +1,10 @@
 #include "main.h"
-/*
+/**
 *_islower - function compare miniscule
-*Return: 1 ci ok
+*@c : lettre a comparer
+*
 *Return: sinon 0
+*
 */
 int _islower(int c)
 {
