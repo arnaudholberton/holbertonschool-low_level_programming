@@ -1,29 +1,24 @@
 #include "main.h"
-/*
-*jack_bauer : affiche toute les heures
-*
+/**
+*jack_bauer - affiche toute les heures
+*jusqua 23h
 *
 */
 
 void jack_bauer(void)
 {
-int a, b, c, d;
-a = 0;
-b = 0;
-c = 0;
-d = 0;
-while (a == 2 && b == 3 && c == 5 && d == 9)
-{
-_putchar(a);
-_putchar(b);
-_putchar(':');
-_putchar(c);
-_putchar(d);
-if (d == 9)
-c++;
-if (c == 5 && b <=)
-b++;
-if (b == 9)
-a++;
-}
+	int hour, minute;
+
+	for (hour = 0; hour <= 23; hour++)
+	{
+		for (minute = 0; minute <= 59; minute++)
+		{
+			_putchar(hour / 10 + '0');
+			_putchar(hour % 10 + '0');
+			_putchar(':');
+			_putchar(minute / 10 + '0');
+			_putchar(minute % 10 + '0');
+			_putchar('\n');
+		}
+	}
 }
