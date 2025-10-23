@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 *print_to_98 - imprime une suite de nombre
-*
+*@a : nbre de depart
 */
 void print_to_98(int a)
 {
