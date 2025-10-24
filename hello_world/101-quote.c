@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
 #include <unistd.h>
 
 /**
@@ -11,6 +9,6 @@
 int main(void)
 {
 char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(1, a, siezof(a) -1);
+write(1, a, sizezof(a) -1);
 return (1);
 }
