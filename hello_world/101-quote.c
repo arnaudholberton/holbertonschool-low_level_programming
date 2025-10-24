@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
 /**
 *main - Function
 *Affiche les different type de fichier
@@ -6,10 +10,7 @@
 */
 int main(void)
 {
-char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-int b;
-for (b = 0; a[b] != '\0'; b++)
-putchar(a[b]);
-putchar('\n');
+char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(1, a, strlen(a));
 return (1);
 }
