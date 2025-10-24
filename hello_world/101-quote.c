@@ -11,6 +11,6 @@
 int main(void)
 {
 char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(1, a, strlen(a));
+write(1, a, siezof(a) -1);
 return (1);
 }
