@@ -20,6 +20,8 @@ if (a < 8)
 putchar(',');
 putchar(' ');
 }
+else
+putchar('\n');
 }
 }
 }
