@@ -1,13 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
-*
+*main - afficher nombre 0 9
+*Return: renvoi 0
 */
-int a[] = [A-Z];
-int b = a[c];
-int c = 0;
 int main(void)
 {
-for (c = 0; c <= 23; c++) 
+int a = 0;
+while (a == 0)
+{
+	printf("%d\n", a);
+	a++;
+}
+
 }
