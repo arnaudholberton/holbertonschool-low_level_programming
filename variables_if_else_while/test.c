@@ -5,11 +5,22 @@
 */
 int main(void)
 {
-int a = 0;
-while (a == 0)
+int a,b,c;
+for (a = 0; a < 9; a++) 
 {
-	printf("%d\n", a);
-	a++;
-}
 
+	for (b = 0; b < 9; b++)
+	{
+
+		for (c = 0; a <= c, c <= 9; c++)
+		{
+		putchar(a + '0');
+			putchar(b + '0');
+			putchar(c + '0');
+			putchar(',');
+			putchar(' ');	
+}
+		
+	}
+}
 }
