@@ -2,7 +2,7 @@
 /*
 *mul - multiplication
 *
-*
+*Return: résultat
 */
 int mul(int a, int b)
 {
