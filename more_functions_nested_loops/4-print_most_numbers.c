@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_numbers - multiplication
+*print_most_numbers - multiplication
 *
 *
 */
