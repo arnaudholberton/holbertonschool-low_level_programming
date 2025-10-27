@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 *mul - multiplication
 *
 *Return: résultat
