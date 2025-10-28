@@ -13,7 +13,7 @@ for (b = 0; s[b] != '\0'; b++)
 c++;
 }
 _putchar('\n');
-for ( ; b != 0 ; b--)
+for ( ; b <= 0 ; b--)
 {
 if (s[b] != '\0')
 _putchar(s[b]);
