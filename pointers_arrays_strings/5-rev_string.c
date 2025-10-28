@@ -19,4 +19,5 @@ if (s[b] != '\0')
 _putchar(s[b]);
 }
 _putchar('\n');
+return (0);
 }
