@@ -16,7 +16,6 @@ a = (a + 1) / 2;
 
 while (str[a] != '\0')
 {
-
 _putchar(str[a]);
 a++;
 }
