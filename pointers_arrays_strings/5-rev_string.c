@@ -14,7 +14,7 @@ while (s[a] != '\0')
 	a++;
 
 }
-c = a -1;
+c = a - 1;
 while (b < c)
 {
 t = s[b];
