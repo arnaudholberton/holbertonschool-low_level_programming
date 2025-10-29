@@ -25,6 +25,6 @@ break;
 i++;
 }
 if (!found_digit)
-return 0;
+return (0);
 return (sign * num);
 }
