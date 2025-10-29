@@ -2,9 +2,10 @@
 /**
  * _atoi - convert a string to an integer
  * @s: pointer to string
+ *
  * Return: the integer value
  */
-int _atoi(char s)
+int _atoi(char *s)
 {
 int i = 0;
 int sign = 1;
