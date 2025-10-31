@@ -4,19 +4,16 @@
  * @a: pointer to the string to be modified
  * Return: pointer to the modified string
  */
-char *string_toupper(char *a)
+char *string_toupper(char *b)
 {
+	char *a = b;
 	while(*a != '\0' )
 	{
 		if (*a >= 'a' && *a <= 'z')
 		{
 			*a = *a - 32;
 		}
-		if (*a < 'a' || *a > 'z')
-		{
-			a++;
-		}
-
+		a++;
 	}
-	return (a);
+	return (b);
 }
