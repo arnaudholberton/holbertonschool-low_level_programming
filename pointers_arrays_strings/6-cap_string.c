@@ -1,22 +1,11 @@
-
+#include "main.h"
+/**
+ * cap_string - capitalizes all words of a string
+ * @a: pointer to the string to be modified
+ * Return: pointer to the modified string
+ */
 char *cap_string(char *a)
 {
-
-/* while (*a != '\0')
-{
-if (*a >= 'a' && *a <= 'z')
-{
-	if (*(a - 1) == ' ' || *(a - 1) == '\t' || *(a - 1) == '\n') 
-	{
-		*a = *a - 32;
-	}
-		
-}
-a++;
-}
-return (a);
-}
- */
 int maj = 0;
 while (*a != '\0')
 {
