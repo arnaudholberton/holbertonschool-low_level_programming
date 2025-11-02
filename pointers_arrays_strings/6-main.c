@@ -12,7 +12,10 @@ int main(void)
     char *ptr;
 
     ptr = cap_string(str);
+        printf("l5d55\n");
     printf("%s", ptr);
+     printf("lkjoijnjklj\n");
     printf("%s", str);
+        printf("lkjoijnjklj5445845455\n");
     return (0);
 }

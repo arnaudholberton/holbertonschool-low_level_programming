@@ -7,6 +7,7 @@
 char *cap_string(char *a)
 {
 int maj = 0;
+char *b = a;
 while (*a != '\0')
 {
 
@@ -15,11 +16,11 @@ while (*a != '\0')
 			*a = *a - 32;
 			maj = 1;
     }
-else if (  *(a - 1 ) == ' ' || *(a - 1 ) == '\t' || *(a - 1 ) == '\n' )
+else if ((*(a - 1 ) == ' ' || *(a - 1 ) == '\t' || *(a - 1 ) == '\n') && (*a >= 'a' && *a <= 'z'))
 {
 			*a = *a - 32;
 }
 a++;
 }
-return (a);
+return (b);
 }
