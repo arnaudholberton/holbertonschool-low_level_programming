@@ -11,4 +11,5 @@ char *leet(char *a)
 			*a = '3';
 		}
 	}
+	return (a);
 }
