@@ -19,5 +19,5 @@ return (a);
 }
 s++;
 }
-return ('nil');
+return (NULL);
 }
