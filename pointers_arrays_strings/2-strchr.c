@@ -22,5 +22,5 @@ s++;
 }
 if (*s == c)
 return (s);
-return ("renvoi null");
+return (NULL);
 }
