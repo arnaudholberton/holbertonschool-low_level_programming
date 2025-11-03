@@ -10,9 +10,9 @@
 char *_strchr(char *s, char c)
 {
 char *a;
-while (*s)
+while (*s != '\0')
 {
-if (*s == c || *(s + 1) == '\0')
+if (*s == c)
 {
 a = s;
 return (a);
