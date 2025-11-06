@@ -19,6 +19,7 @@ return (1);
 if (atoi(argv[1]) < 0)
 {
 printf("0\n");
+return (0);
 }
 else
 {
@@ -44,5 +45,6 @@ for (; n >= 1; rendu++)
 n -= 1;
 }
 printf("%d\n", rendu);
+return (0);
 }
 }
