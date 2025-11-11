@@ -26,7 +26,8 @@ for (i = 0; i < s1i; i++)
 {
 a[i] = s1[i];
 }
-for (ii = 0; ii <= s1i; i++)
+
+for (ii = 0; ii <= s2i; i++)
 {
 a[i] = s2[ii];
 ii++;
