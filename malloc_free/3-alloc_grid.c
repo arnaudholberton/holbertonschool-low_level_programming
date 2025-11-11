@@ -27,5 +27,6 @@ int **alloc_grid(int width, int height)
 		tableau[i] = bloc + i * width;
 	for (i = 0; i < width * height; i++)
 		bloc[i] = 0;
+		free(bloc);
 	return (tableau);
 }
