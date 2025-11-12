@@ -27,7 +27,7 @@ unsigned int ii = 0;
 		return (NULL);
 	for (i = 0; i < s1i; i++)
 		a[i] = s1[i];
-	for (ii = 0; ii < n && s2[ii] != '\0'; i++, ii++)
+	for (ii = 0; ii <= n; i++, ii++)
 		a[i] = s2[ii];
 	return (a);
 }
