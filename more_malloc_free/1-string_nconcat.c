@@ -22,7 +22,7 @@ unsigned int ii = 0;
 	while (s1[i] != '\0')
 		i++;
 	s1i = i;
-	a = malloc(sizeof(char) * i + n + 1);
+	a = malloc(sizeof(char) * i + n);
 	if (a == NULL)
 		return (NULL);
 	for (i = 0; i < s1i; i++)
