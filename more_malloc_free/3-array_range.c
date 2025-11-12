@@ -23,7 +23,7 @@ int b = min;
 		compteur++;
 		b++;
 	}
-	a = malloc(sizeof(int) * compteur);
+	a = malloc(sizeof(int long) * compteur);
 	if (a == NULL)
 	{
 		return (NULL);
