@@ -18,18 +18,18 @@ int b = min;
 	{
 		return (NULL);
 	}
-	while (b < max)
+	while (b <= max)
 	{
 		compteur++;
 		b++;
 	}
-	a = malloc(sizeof(unsigned long) * compteur);
+	a = malloc(sizeof(int) * compteur);
 	if (a == NULL)
 	{
 		return (NULL);
 	}
 	c = min;
-	for (i = 0; i < max; i++)
+	for (i = 0; i < compteur; i++)
 	{
 		a[i] = c++;
 	}
