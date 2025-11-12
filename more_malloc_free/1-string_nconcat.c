@@ -22,12 +22,12 @@ unsigned int ii = 0;
 	while (s1[i] != '\0')
 		i++;
 	s1i = i;
-	a = malloc(sizeof(char) * i + n);
+	a = malloc(sizeof(char) * i + n + 1);
 	if (a == NULL)
 		return (NULL);
 	for (i = 0; i < s1i; i++)
 		a[i] = s1[i];
-	for (ii = 0; ii <= n; i++, ii++)
+	for (ii = 0; ii < n; i++, ii++)
 		a[i] = s2[ii];
 	return (a);
 }
