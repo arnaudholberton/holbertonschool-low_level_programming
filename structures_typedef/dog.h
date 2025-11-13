@@ -1,4 +1,4 @@
-#include <stdlib.h>;
+#include <stdlib.h>
 struct dog { 
 	char *name;
 	float age;
