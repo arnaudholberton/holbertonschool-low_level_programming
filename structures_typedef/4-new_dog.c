@@ -30,6 +30,9 @@ chien = malloc(sizeof(dog_t));
 	}
 	chien->age = age;
 	if (!chien->name || !chien->owner)
-	return (NULL);
-	return (chien);
+	{
+		free(chien);
+		return (NULL);
+	}
+		return (chien);
 }
