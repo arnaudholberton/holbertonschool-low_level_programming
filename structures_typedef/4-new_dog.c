@@ -21,13 +21,17 @@ chien = malloc(sizeof(dog_t));
 	}
 	chien->name = malloc(mi + 1);
 	if (!chien->name)
+{
+		free(chien->name);
 	return (NULL);
-	for (mi = 0; owner[mi]; mi++)
+}	for (mi = 0; owner[mi]; mi++)
 	{}
 	chien->owner = malloc(mi + 1);
 		if (!chien->owner)
+{	
+	free(chien->owner);
 	return (NULL);
-	for (i = 0; name[i] != '\0'; i++)
+}	for (i = 0; name[i] != '\0'; i++)
 	{
 		chien->name[i] = name[i];
 	}
